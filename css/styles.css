@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  position: static;
 }
 
 #title {
@@ -16,7 +17,6 @@ h1 {
   font-weight: 600;
   font-size: 3.5rem;
   line-height: 1.5;
-
 }
 
 h2 {
@@ -78,6 +78,7 @@ p {
   padding: 7% 15%;
   background-color: #ffffff;
   position: relative;
+  
 }
 
 .feature-box {
@@ -136,8 +137,9 @@ p {
 
 /* Media Queries  */
 
-@media screen and (min-width: 800px) {
-  h1 {
-    width: 60%;
+@media screen and (max-width: 1020px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
   }
 }
