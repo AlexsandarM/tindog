@@ -139,5 +139,7 @@ p {
 /* Media Queries  */
 
 @media screen and (min-width: 800px) {
-  
+  h1 {
+    width: 60%;
+  }
 }
